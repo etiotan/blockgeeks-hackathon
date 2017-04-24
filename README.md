@@ -51,4 +51,4 @@ Soldity, [Ethers.io](ethers.io), Ethereum, HTML, CSS, Materialize, Figma, MetaMa
 
 ## Presentation
 
-https://docs.google.com/presentation/d/1SXb_zRiYcr8_hh49LZABdnLSiXkyguD9gUbtBWLz8AM/edit#slide=id.g20982016cb_1_9
+[Presentation](https://docs.google.com/presentation/d/1SXb_zRiYcr8_hh49LZABdnLSiXkyguD9gUbtBWLz8AM/edit#slide=id.g20982016cb_1_9)
