@@ -1,5 +1,6 @@
-## Decentralised Art(Dart)
+## Decentralized Art(Dart)
 
+A crypto-token built on [Ethereum](https://www.ethereum.org/)
 
 ## Event
 
@@ -7,11 +8,11 @@
 
 ## Team
 
-Edward Buchi Ui/Ux Designer http://www.edwardbuchi.com/
+[Edward Buchi](http://www.edwardbuchi.com/) - Ui/Ux Designer
 
-Jan Miranda(Front-End/Smart-Contract) http://www.navlar.com/
+[Jan Miranda](http://www.navlar.com/) - Front-End/Smart-Contract
 
-Etio Tan(Smart-Contract/Front-End) https://etiotan.github.io/app/
+[Etio Tan](https://etiotan.github.io/app/) - Smart-Contract/Front-End
 
 
 ## Synopsis
@@ -39,20 +40,14 @@ navigate `/contracts/` to view .sol and smart contracts
 
 ## Tools
 
-Soldity, Ethers.io, Ethereum, HTML, CSS, Materialize, Figma, MetaMask.io
+Soldity, [Ethers.io](ethers.io), Ethereum, HTML, CSS, Materialize, Figma, MetaMask.io
 
 ## Reference
 
-http://solidity.readthedocs.io/en/develop/installing-solidity.html
+[solidity documentation](http://solidity.readthedocs.io/en/develop/installing-solidity.html)
 
-https://www.ethereum.org/token
+[Ethereum Tokens](https://www.ethereum.org/token)
 
-http://solidity.readthedocs.io/en/develop/solidity-by-example.html
-
-
-## Ropsten Test Net
-
- Contract address:  0xceb39c9b7ebb3b59a918a73485eab52edea2448a
 
 ## Presentation
 
