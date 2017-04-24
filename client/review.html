@@ -1,0 +1,273 @@
+<html>
+    <head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <title>Your Title Here</title>
+        <style type="text/css">
+            html {
+                margin: 0;
+            }
+            body {
+                margin: 40px 0;
+                background-color: #F2C94C;
+            }
+            .centerer {
+                margin-left: 50%;
+            }
+            .centered {
+                margin-left: -400px;
+                width: 800px;
+            }
+            #white-text {color: white;}
+           .content {
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="https://cdn.ethers.io/scripts/dashboard-v0.1.css">
+    </head>
+    <body>
+
+<!-- Ethers content -->
+
+
+<!-- Material -->
+  <div class="container" id="index-banner">
+      <br><br>
+
+   <h3 id="white-text" class="center">Create Certificate of Authenticity</h3>
+
+      <!-- FORM -->
+      </br>
+<div class="row">
+  <div class="container center">
+
+      <form  class="formValidate left-align" id="login-form" method="get" novalidate="novalidate" action="certificate.html">
+
+              <div class="row">
+                <!--
+              <div class="input-field col s8 push-s2">
+                  <label for="artist_name" class="">Artist Name <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="artist_name" name="artist_name" type="text" data-error=".artist_name-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="artist_name-error"></div>
+              </div>
+            -->
+            </div>
+      <!-- Form fields -->
+    <div id="certificate-container" class="container card-panel hoverable col s10 push-s1 white">
+      <br><br>
+
+              <!-- Switch -->
+              <H6>SALE STATUS</H6>
+              <div class="switch">
+                <label>
+                  NOT FOR SALE
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  FOR SALE
+                </label>
+              </div>
+
+
+              <div class="input-field">
+                  <label for="artist_name" class="">Artist Name <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="artist_name" name="artist_name" type="text" data-error=".artist_name-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="artist_name-error"></div>
+              </div>
+
+
+
+              <div class="input-field">
+                  <label for="team_name" class="">Title <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="team_name" name="team_name" type="text" data-error=".team_name-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="team_name-error"></div>
+              </div>
+              <div class="input-field">
+                  <label for="company" class="">Art Type <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="company" name="company" type="text" data-error=".company-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="company-error"></div>
+              </div>
+              <div class="input-field">
+                  <textarea id="ccomments" name="ccomments" class="materialize-textarea validate"></textarea>
+                  <label for="ccomments" class="">Comments</label>
+              </div>
+
+              <div class="col s12">
+              <div class="input-field col s6">
+                  <label for="art_pieces" class="">Number of Pieces </label>
+                  <input placeholder="10" id="art_pieces" name="art_pieces" type="text"  aria-invalid="false" class="">
+              </div>
+            </div>
+
+
+              <div class="col s12">
+              <div class="input-field col s6">
+                  <label for="art_price" class="">Art Work Price</label>
+                  <input placeholder="$2000" id="art_price" name="art_price" type="text"  aria-invalid="false" class="">
+              </div>
+              </div>
+
+
+
+<ul class="collection">
+
+                  <li class="collection-item avatar">
+                    <i class="fa fa-user fa-4 circle" aria-hidden="true"></i>
+                    <span class="title">Artist Name</span>
+                    <p>Vincent van Gogh
+                      <br>0xe4f4face4c72894d45d8ada0914f85ce4a5bf572
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+                  </li>
+
+                  <li class="collection-item avatar">
+                    <i class="fa fa-folder-open-o fa-4 circle" aria-hidden="true"></i>
+                    <span class="title">Link to supporting files</span>
+                    <p>https://drive.google.com/open?id=0B_U-Khzqc4ENQjNmdEL3daTA
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+                  </li>
+
+</ul>
+
+
+
+
+      </div>
+      <div class="col s10 push-s1">
+<br>
+
+              <div>
+                <br>
+                <div class="divider"></div>
+                <br>
+              </div>
+
+              <div class="row">
+              <div class="center"> 
+                <!--
+                <button class="btn waves-effect waves-light center" type="submit" name="action">SIGN
+                </button>
+              -->
+
+                <a href="certificate.html" class="waves-effect waves-light btn">SIGN</a>
+                <br>
+
+
+
+<div class="container">
+
+</div>
+
+
+              </div>
+              </div>
+      </div>
+  </div>
+</div>      <!-- END fields -->
+
+
+      </form>
+      <!-- END FORM -->
+      </br>
+
+</div>      <!-- END container -->
+</div> <!-- row -->
+
+<!-- END - Material -->
+
+
+
+
+
+
+        <script type="text/javascript" src="https://cdn.ethers.io/scripts/ethers-app-v0.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.ethers.io/scripts/dashboard-v0.1.js"></script>
+        <script type="text/javascript">
+           ethers.onready = function() {
+                console.log('Ready!');
+            };
+           // Update the account address
+            function updateAccount(address) {
+               // No address means the user has no accounts
+                if (!address) {
+                    address = 'World';
+                }
+               var span = document.getElementById('address');
+               if (span) {
+                    span.textContent = address;
+                }
+            }
+           // Get the current account
+            ethers.getAccount().then(function(address){
+                updateAccount(address);
+            });
+           // Whenever the account changes...
+            ethers.onaccount = updateAccount;
+        </script>
+        <script type="text/javascript">
+            var address = "0xceb39c9b7ebb3b59a918a73485eab52edea2448a";
+            var abi = [{"constant":true,"inputs":[],"name":"title","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"artistName","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"description","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"toAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"}]
+           var contract = ethers.getContract(address, abi);
+           var dashboard = new Dashboard('dashboard');
+            var panel;
+           panel = dashboard.addPanel('Query Balance');
+            panel.addAddressEntry('Address', 'address');
+            panel.addButton('Lookup', function(values) {
+                var balancePromise = contract.balanceOf(values.address);
+               balancePromise.then(function(result) {
+                    alert('The balance is: ' + result.balance);
+                });
+            });
+           panel = dashboard.addPanel('Transfer');
+            panel.addAddressEntry('To Address', 'address');
+            panel.addTextEntry('Amount', 'amount');
+            panel.addButton('Transfer', function(values) {
+                var transferPromise = contract.transfer(values.address, values.amount);
+               transferPromise.then(function(transaction) {
+                    console.log(transfer);
+                    if (transaction) {
+                        alert('Transaction sent!');
+                    } else {
+                        alert('Transaction cancelled!');
+                    }
+                });
+            });
+        </script>
+        <script>
+            var accountPromise = ethers.getAccount();
+           accountPromise.then(function(address) {
+                if (!address) {
+                    console.log('No accounts.');
+                } else {
+                    console.log('Current Account: ' + address);
+                }
+            });
+           var networkPromise = ethers.getNetwork();
+           networkPromise.then(function(network) {
+                console.log('Current Network: ' + network);
+            });
+       </script>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/bin/materialize.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+  <script src="js/bin/init.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    Materialize.updateTextFields();
+  });
+  </script>
+    </body>
+</html>

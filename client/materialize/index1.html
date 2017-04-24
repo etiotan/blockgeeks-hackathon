@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container" id="index-banner">
+      <br><br>
+
+    <h3 class="header center">Create Certificate of Autenticity</h5>
+
+      <!-- FORM -->
+      </br>
+<div class="row">
+  <div class="container center">
+
+      <form  class="formValidate left-align" id="login-form" method="get" novalidate="novalidate" action="collection.html">
+
+              <div class="row">
+              <div class="input-field col s8 push-s2">
+                  <label for="artist_name" class="">Artist Name <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="artist_name" name="artist_name" type="text" data-error=".artist_name-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="artist_name-error"></div>
+              </div>
+            </div>
+      <!-- Form fields -->
+    <div class="container card-panel hoverable col s10 push-s1 white">
+              <div class="row">
+                <div class="input-field center">
+                  <div class="center"><i class="material-icons small teal-text">fingerprint</i><div class="private-title">&nbspThis is Private Data</div></div>
+                </div>
+              </div>
+              <div class="input-field">
+                  <label for="team_name" class="">First Name <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="team_name" name="team_name" type="text" data-error=".team_name-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="team_name-error"></div>
+              </div>
+              <div class="input-field">
+                  <label for="company" class="">Last Name <span class="cyan-text">*</span></label>
+                  <input placeholder=" " id="company" name="company" type="text" data-error=".company-error" aria-required="true" aria-invalid="false" class="">
+                  <div class="company-error"></div>
+              </div>
+              <div class="input-field">
+                <label for="email" class="active">E-Mail <span class="cyan-text">*</span></label>
+                <input placeholder="yourname@domain.com" id="email" type="email" name="email" data-error=".email-error" aria-required="true" aria-invalid="false" class="error" aria-describedby="email-error">
+                <div class="email-error"><div id="email-error" class="error"></div></div>
+              </div>
+            </div>
+      <div class="col s10 push-s1">
+<br>
+              <div class="input-field">
+                <label for="password" class="active">Password <span class="cyan-text">*</span></label>
+                <input placeholder=" " id="password" type="password" name="password" data-error=".password-error" aria-required="true" aria-invalid="false" class="error" aria-describedby="password-error">
+                <div class="password-error"><div id="password-error" class="error"></div></div>
+              </div>
+
+              <div class="input-field">
+                <label for="cpassword" class="active">Confirm Password <span class="cyan-text">*</span></label>
+                <input placeholder=" " id="cpassword" type="password" name="cpassword" data-error=".cpassword-error" aria-required="true" aria-invalid="false" class="error" aria-describedby="cpassword-error">
+                <div class="cpassword-error"><div id="cpassword-error" class="error"></div></div>
+              </div>
+
+              <div>
+                <br>
+                <div class="divider"></div>
+                <br>
+              </div>
+
+              <div class="row">
+              <div class="center"> 
+                <button class="btn waves-effect waves-light center" type="submit" name="action">CREATE PROFILE
+                </button>
+                <br>
+
+
+
+<div class="container">
+
+</div>
+
+
+              </div>
+              </div>
+      </div>
+  </div>
+</div>      <!-- END fields -->
+
+
+      </form>
+      <!-- END FORM -->
+      </br>
+
+</div>      <!-- END container -->
+</div> <!-- row -->
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/bin/materialize.js"></script>
+  <script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="js/bin/init.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>jQuery UI Droppable - Default functionality</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <style>
+
+h5{
+ margin: 0;
+ padding: 0;
+}
+body{
+ background: #2D9CDB
+}
+
+.row{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+ </style>
+ <script>
+
+ $(document).ready(function(){
+    $("html").click(function(){
+      $(".row").toggleClass("show")
+    })
+ })
+
+
+
+
+ </script>
+</head>
+<body>
+
+
+
+ <div class="row">
+   <div class="col s3 center-align text-white">
+
+   </div>
+    <div class="col s6">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+          <span class="card-title">Starry Night</span>
+        </div>
+        <div class="card-content">
+          <h5>Artist Name - Vincent van Gogh</h5>
+         <ul>
+           <li><strong>Artist Address</strong> - 0x5055453a0c3B901CDA01223fA41a821276837057</li>
+           <li><strong>Certificate of Authenticity</strong> - 0xceb39c9b7ebb3b59a918a73485eab52edea2448a</li>
+           <br>
+
+           <li><strong>Current Owner</strong> - 0xA231837331dB18610D8d413Ef1238Fe672B8e763</li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
