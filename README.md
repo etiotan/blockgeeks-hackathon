@@ -46,7 +46,7 @@ Soldity, [Ethers.io](ethers.io), Ethereum, HTML, CSS, Materialize, Figma, MetaMa
 
 ## Reference
 
-[solidity documentation](http://solidity.readthedocs.io/en/develop/installing-solidity.html)
+[Solidity documentation](http://solidity.readthedocs.io/en/develop/installing-solidity.html)
 
 [Ethereum Tokens](https://www.ethereum.org/token)
 
