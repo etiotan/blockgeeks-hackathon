@@ -34,7 +34,9 @@ The Smart Contract also contains descriptive information (Artist Name, Artwork T
 
 ## Access
 
-navigate `/client/` to view .html files
+`git clone https://github.com/etiotan/blockgeeks-hackathon`
+
+navigate `/client/` to view .html files & front-end
 
 navigate `/contracts/` to view .sol and smart contracts
 
